@@ -13,6 +13,11 @@ docker run --name tensorflow -p 8888:8888 -d tensorflow
 And open http://localhost:8888
 Password: root
 
+To ssh into a docker container 
+```
+docker exec -it <container name> /bin/bash
+```
+
 To stop the docker file type:
 
 ```
