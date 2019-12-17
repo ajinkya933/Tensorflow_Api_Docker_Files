@@ -9,7 +9,7 @@ docker build -t tensorflow .
 After building start:
 ```
 docker run --name tensorflow -p 8888:8888 -d tensorflow
-
+And open http://localhost:8888
 ```
 
 To stop the docker file type:
