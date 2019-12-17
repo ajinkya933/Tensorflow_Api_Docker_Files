@@ -11,3 +11,15 @@ To stop the docker file type:
 ```
 docker rm -f tensorflow
 ```
+
+To copy files from localhost to docker 
+```
+docker cp <local_folder> <docker_container_name>:<full_path of folder inside docker>
+```
+
+note <docker_container_name>: can be got by command : ```docker ps -a```
+
+To copy files from docker to localhost 
+```
+docker cp <docker_container_name>:<full_path of folder inside docker> <local_folder>
+```
