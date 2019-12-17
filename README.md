@@ -1,6 +1,6 @@
 # Tensorflow_Api_Docker_Files
 
-To build the docker fil navigate to each folder and type:
+To build the docker file navigate to each folder and type:
 
 ```
 docker build -t tensorflow .
