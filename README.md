@@ -6,6 +6,12 @@ To build the docker file navigate to each folder and type:
 docker build -t tensorflow .
 ```
 
+After building start:
+```
+docker run --name tensorflow -p 8888:8888 -d tensorflow
+
+```
+
 To stop the docker file type:
 
 ```
