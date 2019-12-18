@@ -1,6 +1,6 @@
 # Tensorflow_Api_Docker_Files
 
-![Image of Yaktocat](https://octodex.github.com/umbrellatocat)
+![Image of Yaktocat](https://github.com/ajinkya933/Tensorflow_Api_Docker_Files/blob/master/imgs/puddle_jumper_octodex.jpg)
 
 
 To build the docker file navigate to each folder and type:
