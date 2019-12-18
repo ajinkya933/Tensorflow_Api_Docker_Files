@@ -1,4 +1,4 @@
-# Tensorflow_Api_Docker_Files
+# Tensorflow-Object-Detection-Api Docker Files
 
 ![Image of Yaktocat](https://github.com/ajinkya933/Tensorflow_Api_Docker_Files/blob/master/imgs/puddle_jumper_octodex.jpg)
 
