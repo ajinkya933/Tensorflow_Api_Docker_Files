@@ -6,7 +6,7 @@
 With Github and Docker's help, I solve a really frustating problem, my problem was each time I make some changes to a library or tensorflow version the tensorflow object detection API didnt produce any output. There were n number of errors and it wasted alot of my time to fix them each time. Finally I made a Docker container whos instructions are given in nice details below, and now whenever I have a trained model from object detection API. I just build docker image and test it and it tests models with good consistency. . Note I use ```object_detection2.ipynb``` from research/object detection directory to test my retrained models.
 
 
-#### To build the docker file navigate to each folder and type:
+#### To build the docker file navigate to tensorflow1.14_cpu_p36 folder and type:
 
 ```
 docker build -t tensorflow .
