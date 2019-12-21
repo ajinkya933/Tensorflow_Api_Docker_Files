@@ -24,11 +24,19 @@ Password: root
 docker exec -it <container name> /bin/bash
 ```
 
-#### To stop the docker file type:
+#### To stop the docker container:
 
 ```
-docker rm -f tensorflow
+docker container stop <container name>
 ```
+
+
+#### To remove the docker container:
+
+```
+docker container rm <container name>
+```
+
 
 #### To copy files from localhost to docker 
 ```
