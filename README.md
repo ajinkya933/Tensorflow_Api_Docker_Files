@@ -23,7 +23,11 @@ Password: root
 ```
 docker exec -it <container name> /bin/bash
 ```
+another way to login
 
+```
+docker run --name <container name> --rm -i -t deeppavlov
+```
 #### To stop the docker container:
 
 ```
