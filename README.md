@@ -26,8 +26,10 @@ docker exec -it <container name> /bin/bash
 another way to login
 
 ```
-docker run --name <container name> --rm -i -t deeppavlov
+sudo docker run -i -t <container id> /bin/bash
 ```
+
+
 #### To stop the docker container:
 
 ```
