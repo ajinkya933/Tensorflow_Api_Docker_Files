@@ -11,8 +11,12 @@ With Github and Docker's help, I solve a really frustating problem, my problem w
 ```
 docker build -t tensorflow .
 ```
+#### After building start: (without assigning IP):
+```
+docker run <container name>
+```
 
-#### After building start:
+#### After building start: (with assinment of IP):
 ```
 docker run --name tensorflow -p 8888:8888 -d tensorflow
 ```
