@@ -32,7 +32,10 @@ another way to login
 ```
 sudo docker run -i -t <container id> /bin/bash
 ```
-
+OR
+```
+sudo docker run -i -t <container id> 
+```
 
 #### To stop the docker container:
 
