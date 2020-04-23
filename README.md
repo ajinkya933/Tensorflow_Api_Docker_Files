@@ -24,6 +24,11 @@ And open http://localhost:8888
 Password: root
 
 #### To ssh into a docker container 
+
+```
+docker exec -it <container-id> sh
+```
+or
 ```
 docker exec -it <container name> /bin/bash
 ```
