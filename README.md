@@ -56,12 +56,19 @@ docker container rm <container name>
 ```
 
 
+
 #### To copy files from localhost to docker 
 ```
 docker cp <local_folder> <docker_container_name>:<full_path of folder inside docker>
 ```
 
 note <docker_container_name>: can be got by command : ```docker ps -a```
+
+### This command converts the container 9c09acd48a25 to an image with the name fedora-base-with-git:
+
+```
+docker commit 9c09acd48a25 fedora-base-with-git
+```
 
 #### To copy files from docker to localhost 
 ```
