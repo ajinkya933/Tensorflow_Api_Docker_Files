@@ -74,3 +74,6 @@ docker commit 9c09acd48a25 fedora-base-with-git
 ```
 docker cp <docker_container_name>:<full_path of folder inside docker> <local_folder>
 ```
+
+
+https://ajinkya93.atlassian.net/l/c/qVxC3MeK
